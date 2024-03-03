@@ -12,9 +12,13 @@
             background-color: #f0f0f0;
         }
         header {
-            background-color: #333;
+            background-image: url('Test.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: #fff;
             padding: 10px 20px;
+            height: 100px;
             text-align: center;
         }
         nav {
@@ -31,12 +35,12 @@
         section {
             padding: 20px;
             margin: 20px;
-            background-color: #fff;
+            background-color: #f0f0f0;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
         }
         footer {
-            background-color: #333;
+            background-color: #301934;
             color: #fff;
             padding: 10px 20px;
             text-align: center;
@@ -44,6 +48,18 @@
             bottom: 0;
             width: 100%;
         }
+       .image-container {
+            position: absolute;
+            top: 250px;
+            right:50px;
+            width: 20%; /* Set the width of the image container */
+        }
+        .image-container img {
+            max-width: 100%; /* Ensure the image doesn't exceed its container */
+            display: block;
+            margin: auto;
+        }
+        
     </style>
 </head>
 <body>
@@ -62,6 +78,9 @@
     <section>
         <h2>Homepage Content</h2>
         <p>This is the homepage of an astrophysicist. You can navigate to other pages using the links above.</p>
+        <div class="image-container">
+            <img src="my_image.jpg" alt="Image inside homepage content">
+        </div>
     </section>
     <footer>
         <p>&copy; 2024 Astrophysicist Homepage. All rights reserved.</p>
