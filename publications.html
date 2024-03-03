@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astrophysicist Website</title>
+    <title>Ankush Mandal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,13 +12,13 @@
             background-color: #f0f0f0;
         }
         header {
-            background-image: url('Test.jpg');
+            background-image: url('cover.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             color: #fff;
             padding: 10px 20px;
-            height: 100px;
+            height: 150px;
             text-align: center;
         }
         nav {
@@ -31,6 +31,7 @@
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
+            font-size:1.2em;
         }
         section {
             padding: 20px;
@@ -38,6 +39,15 @@
             background-color: #f0f0f0;
             border-radius: 5px;
             box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            font-size: 16px; /* Adjust font size as needed */
+            list-style-type: disc; /* Set list style to bullets */
+            padding-left: 20px; /* Add left padding for bullets */
+        }
+        li {
+            margin-bottom: 10px; /* Adjust spacing between list items */
+            font-size:1.1em;
         }
         footer {
             background-color: #301934;
@@ -47,6 +57,12 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        section p {
+            margin-bottom: 50px;
+            font-size:1.1em;
         }
     </style>
 </head>
@@ -56,7 +72,6 @@
     </header>
     <nav>
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
         <a href="research.html">Research</a>
         <a href="cv.html">CV</a>
         <a href="publications.html">Publications</a>
@@ -64,11 +79,34 @@
         <a href="contact.html">Contact</a>
     </nav>
     <section>
-        <h2>About Me</h2>
-        <p>Welcome to my website! I am a passionate astrophysicist dedicated to unraveling the mysteries of the universe.</p>
+        <h2>Selected Publications</h2>
+            <u1>
+                <li>A. Mandal, D. Mukherjee, and A. Mignone, “<a href="https://iopscience.iop.org/article/10.3847/1538-4365/aced0a">A self-gravity module for the PLUTO code</a>,”The Astrophysical Journal Supplement Series, vol. 268, no. 40, 2023. </li>
+                <li>M. Meenakshi, D. Mukherjee, A. Y. Wagner, N. P. H. Nesvadba, G. V. Bicknell, R. Morganti, R. M. J. Janssen, R. S. Sutherland, and A. Mandal, “<a href="https://academic.oup.com/mnras/article/516/1/766/6661427">Modelling observable signatures of jet-ISM interaction: thermal emission and gas kinematics</a>,” Monthly Notices of the Royal Astronomical Society, vol. 516, 2022.</li>
+                <li>A. Mandal, D. Mukherjee, C. Federrath, N. P. H. Nesvadba, G. V. Bicknell, A. Y. Wagner, and M. Meenakshi, “<a href="https://academic.oup.com/mnras/article/508/4/4738/6380528">Impact of relativistic jets on the star formation rate: a turbulence-regulated framework</a>,” Monthly Notices of the Royal Astronomical Society, vol. 508, no. 4, Dec. 2021.</li>
+                <li>N. P. H. Nesvadba, A. Y. Wagner, D. Mukherjee, A. Mandal, R. M. J. Janssen, H. Zovaro, N. Neumayer, J. Bagchi, and G. Bicknell, “<a href="https://www.aanda.org/articles/aa/full_html/2021/10/aa40544-21/aa40544-21.html">Jet-driven AGN feedback on molecular gas and low star-formation eﬃciency in a massive local spiral galaxy with a bright X-ray halo</a>,” Astronomy and Astrophysics, vol. 654, 2021</li>
+                <li>A. Mandal, C. Federrath, and B. Körtgen, “<a href="https://academic.oup.com/mnras/article/493/3/3098/5737588">Molecular cloud formation by compression of magnetized turbulent gas subjected to radiative cooling</a>,” Monthly Notices of the Royal Astronomical Society, vol. 493, no. 3, Apr. 2020</li>
+                <li>A. Mandal and S. Nadkarni-Ghosh, “<a href="https://academic.oup.com/mnras/article/498/1/355/5873677">One-point probability distribution function from spherical collapse: early dark energy versus ΛCDM</a>,” Monthly Notices of the Royal Astronomical Society, vol. 498, 2020.</li>
+            </u1>
     </section>
     <footer>
         <p>&copy; 2024 Astrophysicist Homepage. All rights reserved.</p>
+        
+        <div style="display: inline-block;margin-left:60%;margin-right:10px">
+            <a href="https://scholar.google.co.in/citations?user=wnBmoNkAAAAJ&hl=en">
+                <img src="Google_Scholar_logo.png" style="max-width:50px;padding:0;">
+            </a>
+        </div>
+        <div style="display: inline-block;margin-left:10px;margin-right:10px;">
+            <a href="https://www.researchgate.net/profile/Ankush-Mandal">
+                <img src="RG_Logo.png" style="max-width:50px;padding:0;">
+            </a>
+        </div>
+        <div style="display: inline-block;margin-left:10px;margin-right:50px;">
+            <a href="https://orcid.org/0000-0002-0912-8081">
+                <img src="ORCID_iD.png" style="max-width:50px;padding:0;">
+            </a>
+        </div>
     </footer>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astrophysicist Website</title>
+    <title>Ankush Mandal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,13 +12,13 @@
             background-color: #f0f0f0;
         }
         header {
-            background-image: url('Test.jpg');
+            background-image: url('cover.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             color: #fff;
             padding: 10px 20px;
-            height: 100px;
+            height: 150px;
             text-align: center;
         }
         nav {
@@ -31,6 +31,7 @@
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
+            font-size:1.2em;
         }
         section {
             padding: 20px;
@@ -38,6 +39,16 @@
             background-color: #f0f0f0;
             border-radius: 5px;
             box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            font-size: 16px; /* Adjust font size as needed */
+            list-style-type: disc; /* Set list style to bullets */
+            padding-left: 20px; /* Add left padding for bullets */
+        }
+        li {
+            margin-bottom: 10px; /* Adjust spacing between list items */
+            font-size: 1.1em;
+            margin-left: 20px;
         }
         footer {
             background-color: #301934;
@@ -47,16 +58,22 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        
+        section p {
+            margin-bottom: 50px;
+            font-size:1.1em;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>CV</h1>
+        <h1>About Me</h1>
     </header>
     <nav>
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
         <a href="research.html">Research</a>
         <a href="cv.html">CV</a>
         <a href="publications.html">Publications</a>
@@ -64,11 +81,49 @@
         <a href="contact.html">Contact</a>
     </nav>
     <section>
-        <h2>About Me</h2>
-        <p>Welcome to my website! I am a passionate astrophysicist dedicated to unraveling the mysteries of the universe.</p>
+        <h2><span style= "font-size:1.6em">Profile</span></h2>
+            <h2>Education</h2>
+                <u1>
+                    <li>Ph.D. in Computational Astrophysics, Inter-University Centre for Astronomy and Astrophysics, Pune, India 2019 - present.</li>
+                    <li>Master of Science in Physics, Indian Institute of Technology, Kanpur, India, 2017-2019.</li>
+                    <li>Bachelor of Science in Physics, Ramakrishna Mission Residential College, Narendrapur, Kolkata, India, 2014 - 2017.</li>
+                    <li>Higher Secondary Education, Banamalichatta High School, Contai, India, 2012 - 2014.</li>
+                    <li>Secondary Education, Karalda Bani Niketan High School, Contai, India, 2007 - 2012.</li>
+                </u1>
+    </section>
+    
+    <section>
+        <h2>Research Programs and Awards</h2>
+            <u1>
+                <li>Junior and Senior Research Fellowship by CSIR, India, 2019 - 2024.</li>
+                <li>Future Research Talent Travel Award, Australian National University, May 2019 - July 2019.</li>
+                <li>Gold Medal for University Topper, Ramakrishna Mission Residential College, Narendrapur, 2017.</li>
+                <li>Inspire Fellowship, Department of Science and Technology (DST), Government of India, 2014 - 2019.</li>
+                <li>Merit-cum-means scholarship, Government of West Bengal, 2012.</li>
+            </u1>
+    </section>
+    
+    <section>
+        <p>A pdf version of my CV can be found <a href="CV_Ankush.pdf">here</a>.</p>
     </section>
     <footer>
         <p>&copy; 2024 Astrophysicist Homepage. All rights reserved.</p>
+        
+        <div style="display: inline-block;margin-left:60%;margin-right:10px">
+            <a href="https://scholar.google.co.in/citations?user=wnBmoNkAAAAJ&hl=en">
+                <img src="Google_Scholar_logo.png" style="max-width:50px;padding:0;">
+            </a>
+        </div>
+        <div style="display: inline-block;margin-left:10px;margin-right:10px;">
+            <a href="https://www.researchgate.net/profile/Ankush-Mandal">
+                <img src="RG_Logo.png" style="max-width:50px;padding:0;">
+            </a>
+        </div>
+        <div style="display: inline-block;margin-left:10px;margin-right:50px;">
+            <a href="https://orcid.org/0000-0002-0912-8081">
+                <img src="ORCID_iD.png" style="max-width:50px;padding:0;">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
