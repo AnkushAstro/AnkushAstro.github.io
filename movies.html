@@ -12,7 +12,7 @@
             background-color: #f0f0f0;
         }
         header {
-            background-image: url('cover.jpg');
+            background-image: url('Pictures/cover.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -61,6 +61,9 @@
             width: 60%;
             padding:50px;
         }
+        .align-center{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -69,8 +72,9 @@
     </header>
     <nav>
         <a href="index.html">Home</a>
+        <a href="about.html">About</a>
         <a href="research.html">Research</a>
-        <a href="cv.html">CV</a>
+        <a href="cv.html">Profile</a>
         <a href="publications.html">Publications</a>
         <a href="movies.html">Movies</a>
         <a href="contact.html">Contact</a>
@@ -78,47 +82,54 @@
     <section>
         <h2>Movies</h2>
         <p>Coming soon</p>
-        <video style="position:relative;width:40%;top:20px;left:30%;max-height:100%;padding:10px;" controls>
-            <source src="video.mp4" type="video/mp4">
-        </video>
+        
+        <div class="align-center">
+            <video style="position:relative;width:40%;max-height:100%;padding:10px;" controls>
+                <source src="Movies/video.mp4" type="video/mp4">
+            </video>
+        </div>
     </section>
     
-    <input type="image" src="plots_xy.png" alt="Submit" class="centered-input">
-    <input type="image" src="plots_xz.png" alt="Submit" class="centered-input">
-    
-    <div style="display:inline-block;margin-left:10px;margin-right:10px">
-        <video style="position:relative;width:25%;top:20px;left:300px;right:10px;padding:100px;" controls>
-            <source src="Animation_withOF_xy.mp4" type="video/mp4">
+    <div style="display:inline-block;margin-left:10px;margin-right:10px" class="align-center">
+        <video style="position:relative;width:25%;padding:100px;" controls>
+            <source src="Movies/Animation_withOF_xy.mp4" type="video/mp4">
         </video>
-        <video style="position:relative;width:25%;top:20px;left:200px;right:10px;padding:100px;" controls>
-            <source src="Animation_withOF_xz.mp4" type="video/mp4">
+        <video style="position:relative;width:25%;padding:100px;" controls>
+            <source src="Movies/Animation_withOF_xz.mp4" type="video/mp4">
         </video>
     </div>
     
-    <div style="display:inline-block;margin-left:10px;margin-right:10px">
-        <video style="position:relative;width:25%;top:20px;left:300px;right:10px;padding:100px;" controls>
-            <source src="Animation_withoutOF_xy.mp4" type="video/mp4">
+    <div style="display:inline-block;margin-left:10px;margin-right:10px" class="align-center">
+        <video style="position:relative;width:25%;padding:100px;" controls>
+            <source src="Movies/Animation_withoutOF_xy.mp4" type="video/mp4">
         </video>
-        <video style="position:relative;width:25%;top:20px;left:200px;right:10px;padding:100px;" controls>
-            <source src="Animation_withoutOF_xz.mp4" type="video/mp4">
+        <video style="position:relative;width:25%;padding:100px;" controls>
+            <source src="Movies/Animation_withoutOF_xz.mp4" type="video/mp4">
         </video>
     </div>
+    
+    <div class="align-center">
+        <video style="position:relative;width:20%;max-height:100%;padding:100px;" controls>
+            <source src="Movies/sinks.mp4" type="video/mp4">
+    </div>
+    
+    <div>
     <footer>
-        <p>&copy; 2024 Astrophysicist Homepage. All rights reserved.</p>
+        <p>&copy; 2024 Ankush Mandal. All rights reserved.</p>
         
         <div style="display: inline-block;margin-left:60%;margin-right:10px">
             <a href="https://scholar.google.co.in/citations?user=wnBmoNkAAAAJ&hl=en">
-                <img src="Google_Scholar_logo.png" style="max-width:50px;padding:0;">
+                <img src="Pictures/Google_Scholar_logo.png" style="max-width:50px;padding:0;">
             </a>
         </div>
         <div style="display: inline-block;margin-left:10px;margin-right:10px;">
             <a href="https://www.researchgate.net/profile/Ankush-Mandal">
-                <img src="RG_Logo.png" style="max-width:50px;padding:0;">
+                <img src="Pictures/RG_Logo.png" style="max-width:50px;padding:0;">
             </a>
         </div>
         <div style="display: inline-block;margin-left:10px;margin-right:50px;">
             <a href="https://orcid.org/0000-0002-0912-8081">
-                <img src="ORCID_iD.png" style="max-width:50px;padding:0;">
+                <img src="Pictures/ORCID_iD.png" style="max-width:50px;padding:0;">
             </a>
         </div>
     </footer>
